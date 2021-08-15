@@ -32,8 +32,8 @@ class El_Personaje(pygame.sprite.Sprite):
         if self.angle > 0 :
             self.angle += 0.01
         if self.angle > math.pi//2 :
-            self.angle -= 0.1
-            print("Funciona")
+            self.angle = 0.0
+
 
 
 
